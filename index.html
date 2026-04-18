@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>USZ MPER research group</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+a {color: blue; text-decoration: none;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.w3-uszblue,.w3-hover-uszblue:hover{color:#fff!important;background-color:#005EA8!important}
+.w3-text-uszblue,.w3-hover-text-uszblue:hover{color:#005EA8!important}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-uszblue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container" style="text-align: center;">
+    <img src="images/usz-mper_logo.png" style="max-width: 120px; border: 1px white solid;">
+    <h3></h3>
+    <!--<h3 class="w3-padding-64"><b>MPER - Medical Physics and Engineering in Radiology</b></h3>-->
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#staff" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Staff</a>
+    <a href="#research" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research projects</a>
+    <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Publications</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-uszblue w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-uszblue w3-margin-right" onclick="w3_open()">☰</a>
+  <span>MPER Group</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:60px" id="showcase">
+    <h1 class="w3-xxxlarge" style="line-heigt: 1em; margin-bottom: 30px;"><b>Medical Physics and Engineering in Radiology (MPER)</b></h1>
+    <p>The Medical Physics and Engineering in Radiology (MPER) research group is based at Institute of Diagnostic and Interventional Radiology of the University Hospital Zurich.
+      The group includes researchers from all imaging domains (MRI, Ultrasound, X-Rays/CT) and deals with interdisciplinary aspects of imaging research, including safety and regulatory compliance.</p>
+    <p>We conduct independent research, support radiological and clinical research, and teach medical and technical students, master students, and Ph.D. students. We provide an interface between vendors and clinical practice and continually advise with regards to image quality and operational safety of our devices.</p>
+  </div>
+
+  <!-- Researchers -->
+  <div class="w3-container" id="staff" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-uszblue"><b>Staff</b></h1>
+    <hr style="width:50px;border:5px solid #005EA8" class="w3-round">
+    <p>The MPER team comprises scientific experts from different modalities and healthcare-related disciplines.</p>
+  </div>
+
+  <div class="w3-container">
+    <p><b>Senior researchers</b></p>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/paverd.png" alt="Catherine Paverd" style="width:100%">
+        <div class="w3-container">
+          <h3>Catherine Paverd</h3>
+          <h4>PhD</h4>
+          <p class="w3-opacity">Biomedical & Electrical Engineer<!--<br><b>Group coordinator</b>--></p>
+          <p>Ultrasound imaging, AI, interdisciplinary research</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/cester.png" alt="Davide Cester" style="width:100%">
+        <div class="w3-container">
+          <h3>Davide Cester</h3>
+          <h4>PhD, ETH MAS MP</h4>
+          <p class="w3-opacity">Medical Physicist</p>
+          <p>CT/X-Ray imaging, AI, Radiation protection</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/cavusoglu.png" alt="Mustafa Cavusoglu" style="width:100%">
+        <div class="w3-container">
+          <h3>Mustafa Cavusoglu</h3>
+          <h4>PhD</h4>
+          <p class="w3-opacity">MRI Physicist</p>
+          <p>MRI imaging, MRI safety</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/martin.png" alt="Alexander Martin" style="width:100%">
+        <div class="w3-container">
+          <h3>Alexander Martin</h3>
+          <h4>PhD</h4>
+          <p class="w3-opacity">Biomedical engineer</p>
+          <p>Ultrasound imaging, optoacustic imaging</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container">
+    <p><b>Students</b></p>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/anonymous.png" alt="Anonimous" style="width:100%">
+        <div class="w3-container">
+          <h3>Andreas Golder</h3>
+          <h4>BSc</h4>
+          <p class="w3-opacity">Physics</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/anonymous.png" alt="Anonimous" style="width:100%">
+        <div class="w3-container">
+          <h3>Gianluca Piol</h3>
+          <h4>BSc</h4>
+          <p class="w3-opacity">Medicine</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Research projects -->
+  <div class="w3-container" id="research" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-uszblue"><b>Research projects</b></h1>
+    <hr style="width:50px;border:5px solid #005EA8" class="w3-round">
+    <p>Our group conduct several projects in different areas of diagnostic imaging.<br>
+      Here we will present some of our running and completed projects.</p>
+
+    <p><b>Open positions and thesis offering</b></p>
+    <p><u>We currently don't have any open positions.</u></p>
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <!--
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+    </div>
+    <div class="w3-half">
+      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>
+  </div>
+  -->
+  <!-- Modal for full size images on click-->
+  <!--
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+  -->
+
+  <!-- Publications -->
+  <div class="w3-container" id="publications" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-uszblue"><b>Publications</b></h1>
+    <hr style="width:50px;border:5px solid #005EA8" class="w3-round">
+    <p>Our work is regularly publish in international peer-reviewed journals.</p>
+  </div>
+
+  <div class="w3-container">
+    <p><b>Peer reviewed papers (selection)</b></p>
+    <ul>
+      <li><a href="https://doi.org/10.1007/s00270-025-04034-6">Impact of Dedicated Eye Lens Dosimeters and Full-Face Visors in Interventional Radiology</a><br>
+        <b>D Cester</b>, E Samara, G Puippe, A Kobe, T Frauenfelder | CardioVascular and Interventional Radiology 48 (9), 1386-1388</li>
+      <li><a href="https://doi.org/10.1016/j.radi.2025.103088">To iMAR or not to iMAR: Quantitative impact of MAR algorithms on image quality in a phantom study</a><br>
+        <b>D Cester</b>, T Flohr, B Zanini, H Alkadhi | Radiography 31 (5), 103088</li>
+      <li><a href="https://doi.org/10.1093/bjrai/ubaf005">An in-silico simulation study to generate computed tomography images from ultrasound data by using deep learning techniques</a><br>
+        <b>AA Aicher</b>, <b>D Cester</b>, <b>A Martin</b>, K Pawlus, FA Huber, T Frauenfelder, <b>C Paverd</b> | BJR| Artificial Intelligence 2 (1), ubaf005</li>
+      <li><a href="https://doi.org/10.3390/jimaging11070229">Depth-Dependent Variability in Ultrasound Attenuation Imaging for Hepatic Steatosis: A Pilot Study of ATI and HRI in Healthy Volunteers</a><br>
+        <b>A Martin</b>, O Hurni, <b>C Paverd</b>, O Hänni, L Ruby, T Frauenfelder, FA Huber | Journal of Imaging 11 (7), 229</li>
+      <li><a href="https://doi.org/10.1016/j.wfumbo.2024.100051">Assessment of ultrasound image quality in a reference phantom using gel and liquid standoff pads</a><br>
+        <b>C Paverd</b>, <b>A Martin</b>, M Rominger, L Ruby | WFUMB Ultrasound Open 2 (2), 100051</li>
+      <li><a href="https://doi.org/10.1016/j.jmr.2023.107572">Arterial spin labeling MRI using spiral acquisitions and concurrent field monitoring</a><br>
+        <b>M Çavuşoğlu</b> | Journal of Magnetic Resonance 356, 107572</li>
+      <li><a href="https://doi.org/10.1002/nbm.4733">Quantitative 23Na‐MRI of the intervertebral disk at 3T</a><br>
+        <b>M Çavuşoğlu</b>, S Pazahr, AP Ciritsis, C Rossi | NMR in Biomedicine 35 (8), e4733</li>
+    </ul>
+    <p><b>Book chapters</b></p>
+    <ul>
+      <li><a href="https://doi.org/10.1007/978-3-662-68480-1_4">Protokollparameter und Bildqualität</a><br>
+        <b>D Cester</b> | Wie funktioniert CT?, 39-47</li>
+      <li><a href="https://doi.org/10.1007/978-3-030-96285-2_24">The Future of Spectral CT: Radiomics and Beyond</a><br>
+        B Baessler, <b>D Cester</b> | Spectral Imaging: Dual-Energy, Multi-Energy and Photon-Counting CT, 347-361</li>
+    </ul>
+  </div>
+
+
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-uszblue"><b>Contact (temporarily not working)</b></h1>
+    <hr style="width:50px;border:5px solid #005EA8" class="w3-round">
+    <p>Are you a student or researcher and you would you like to get in touch?</p>
+    <form action="" target="_blank"> <!-- TODO fill with action -->
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-uszblue w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
+
