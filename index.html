@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<base target="_blank">
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
@@ -22,16 +23,18 @@ a {color: blue; text-decoration: none;}
 <nav class="w3-sidebar w3-uszblue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container" style="text-align: center;">
+    <a href="https://www.usz.ch/fachbereich/diagnostische-interventionelle-radiologie/forschung/medical-physics-and-engineering-in-radiology-mper/">
     <img src="images/usz-mper_logo.png" style="max-width: 120px; border: 1px white solid;">
-    <h3></h3>
-    <!--<h3 class="w3-padding-64"><b>MPER - Medical Physics and Engineering in Radiology</b></h3>-->
+    </a>
+    <h3>&nbsp;</h3>
   </div>
   <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#staff" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Staff</a>
-    <a href="#research" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research projects</a>
-    <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Publications</a>
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    <a target="_self" href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a target="_self" href="#staff" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Staff</a>
+    <a target="_self" href="#research" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Research projects</a>
+    <a target="_self" href="#teaching" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Teaching activities</a>
+    <a target="_self" href="#publications" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Publications</a>
+    <a target="_self" href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
   </div>
 </nav>
 
@@ -50,7 +53,7 @@ a {color: blue; text-decoration: none;}
   <!-- Header -->
   <div class="w3-container" style="margin-top:60px" id="showcase">
     <h1 class="w3-xxxlarge" style="line-heigt: 1em; margin-bottom: 30px;"><b>Medical Physics and Engineering in Radiology (MPER)</b></h1>
-    <p>The Medical Physics and Engineering in Radiology (MPER) research group is based at Institute of Diagnostic and Interventional Radiology of the University Hospital Zurich.
+    <p>The <a href="https://www.usz.ch/fachbereich/diagnostische-interventionelle-radiologie/forschung/medical-physics-and-engineering-in-radiology-mper/">Medical Physics and Engineering in Radiology</a> research group is based at the <a href="https://www.usz.ch/en/department/diagnostic-and-interventional-radiology/">Institute of Diagnostic and Interventional Radiology</a> of the <a href="https://www.usz.ch">University Hospital Zurich</a>.
       The group includes researchers from all imaging domains (MRI, Ultrasound, X-Rays/CT) and deals with interdisciplinary aspects of imaging research, including safety and regulatory compliance.</p>
     <p>We conduct independent research, support radiological and clinical research, and teach medical and technical students, master students, and Ph.D. students. We provide an interface between vendors and clinical practice and continually advise with regards to image quality and operational safety of our devices.</p>
   </div>
@@ -113,30 +116,41 @@ a {color: blue; text-decoration: none;}
   </div>
 
   <div class="w3-container">
-    <p><b>Students</b></p>
+    <p><b>Current and former students</b></p>
   </div>
   <div class="w3-row-padding">
     <div class="w3-col m3 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="images/anonymous.png" alt="Anonimous" style="width:100%">
         <div class="w3-container">
           <h3>Andreas Golder</h3>
-          <h4>BSc</h4>
-          <p class="w3-opacity">Physics</p>
+          <h4>Semesterarbeit</h4>
+          <p class="w3-opacity">ETH / Physics</p>
+          <p>Tube Current Modulation for a Breast CT device (2026)</p>
         </div>
       </div>
     </div>
     <div class="w3-col m3 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="images/anonymous.png" alt="Anonimous" style="width:100%">
         <div class="w3-container">
           <h3>Gianluca Piol</h3>
-          <h4>BSc</h4>
-          <p class="w3-opacity">Medicine</p>
+          <h4>Masterarbeit</h4>
+          <p class="w3-opacity">UZH / Medicine</p>
+          <p>Dose Characterization of a Mammography Unit (2025)</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>Ailin Parsa</h3>
+          <h4>Masterarbeit</h4>
+          <p class="w3-opacity">ETH / MAS in Medical Physics</p>
+          <p>Development of a simple MonteCarlo-based CT simulator (2024)</p>
         </div>
       </div>
     </div>
   </div>
+
 
   <!-- Research projects -->
   <div class="w3-container" id="research" style="margin-top:75px">
@@ -176,15 +190,38 @@ a {color: blue; text-decoration: none;}
   -->
 
   <!-- Publications -->
+  <div class="w3-container" id="teaching" style="margin-top:75px">
+    <h1 class="w3-xxlarge w3-text-uszblue"><b>Teaching activities</b></h1>
+    <hr style="width:50px;border:5px solid #005EA8" class="w3-round">
+    <p>As researchers of a University Hospital we are regularly involved in teaching activities at accademic level.</p>
+  </div>
+
+  <div class="w3-container">
+    <p><b>University of Zurich, Mathematisch-naturwissenschaftliche Fakultät</b></p>
+    <ul>
+      <li>PHY 474: Advanced Topics in Medical Imaging</li>
+    </ul>
+    <p><b>University of Zurich, Medizinische Fakultät</b></p>
+    <ul>
+      <li>Mantelstudium: Radiological imaging methods (1st year)</li>
+      <li>Mantelstudium: Imaging methods (4th year)</li>
+      <li>Mantelstudium: Ultrasound in practice and theory</li>
+    </ul>
+  </div>
+
+
+  <!-- Publications -->
   <div class="w3-container" id="publications" style="margin-top:75px">
     <h1 class="w3-xxlarge w3-text-uszblue"><b>Publications</b></h1>
     <hr style="width:50px;border:5px solid #005EA8" class="w3-round">
-    <p>Our work is regularly publish in international peer-reviewed journals.</p>
+    <p>Our work is regularly published in international peer-reviewed journals.</p>
   </div>
 
   <div class="w3-container">
     <p><b>Peer reviewed papers (selection)</b></p>
     <ul>
+      <li><a href="https://doi.org/10.1177/02841851251372536">Novel multi-scan-body cone-beam CT: comparison with photon-counting and energy-integrating CT in an anthropomorphic hand phantom</a><br>
+        F Ensle, J Kroschke, E Nikolova, F Heidt, T Frauenfelder, E Burian, <b>D Cester</b> | Acta Radiologica 67 (1), 3-12</li>
       <li><a href="https://doi.org/10.1007/s00270-025-04034-6">Impact of Dedicated Eye Lens Dosimeters and Full-Face Visors in Interventional Radiology</a><br>
         <b>D Cester</b>, E Samara, G Puippe, A Kobe, T Frauenfelder | CardioVascular and Interventional Radiology 48 (9), 1386-1388</li>
       <li><a href="https://doi.org/10.1016/j.radi.2025.103088">To iMAR or not to iMAR: Quantitative impact of MAR algorithms on image quality in a phantom study</a><br>
@@ -197,6 +234,8 @@ a {color: blue; text-decoration: none;}
         <b>C Paverd</b>, <b>A Martin</b>, M Rominger, L Ruby | WFUMB Ultrasound Open 2 (2), 100051</li>
       <li><a href="https://doi.org/10.1016/j.jmr.2023.107572">Arterial spin labeling MRI using spiral acquisitions and concurrent field monitoring</a><br>
         <b>M Çavuşoğlu</b> | Journal of Magnetic Resonance 356, 107572</li>
+      <li><a href="https://doi.org/10.3390/diagnostics13050989">Impact of breathing phase, liver segment, and prandial state on ultrasound shear wave speed, shear wave dispersion, and attenuation imaging of the liver in healthy volunteers</a><br>
+      <b>C Paverd</b>, S Kupfer, IN Kirchner, S Nambiar, A Martin, N Korta Martiartu, T Frauenfelder, M B Rominger, L Ruby | Diagnostics 13 (5), 989</li>
       <li><a href="https://doi.org/10.1002/nbm.4733">Quantitative 23Na‐MRI of the intervertebral disk at 3T</a><br>
         <b>M Çavuşoğlu</b>, S Pazahr, AP Ciritsis, C Rossi | NMR in Biomedicine 35 (8), e4733</li>
     </ul>
@@ -212,24 +251,10 @@ a {color: blue; text-decoration: none;}
 
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxlarge w3-text-uszblue"><b>Contact (temporarily not working)</b></h1>
+    <h1 class="w3-xxlarge w3-text-uszblue"><b>Contact</b></h1>
     <hr style="width:50px;border:5px solid #005EA8" class="w3-round">
     <p>Are you a student or researcher and you would you like to get in touch?</p>
-    <form action="" target="_blank"> <!-- TODO fill with action -->
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
-      </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-uszblue w3-margin-bottom">Send Message</button>
-    </form>  
+    <p>You can find our contact details on our <a href="https://www.usz.ch/fachbereich/diagnostische-interventionelle-radiologie/forschung/medical-physics-and-engineering-in-radiology-mper/">institutional web page</a>.</a></p>
   </div>
 
 <!-- End page content -->
